@@ -9,7 +9,7 @@ const xintaiAdminOptions = {
   target: 'http://15366570332.gnway.cc', // target host
   changeOrigin: true, // needed for virtual hosted sites
   pathRewrite: {
-    '^/xintai-admin/api': '/xintai/back',
+    '^/xintai-admin/api': '/xintai',
   }
 };
 const xintaiAdminProxy = createProxyMiddleware(xintaiAdminOptions);
